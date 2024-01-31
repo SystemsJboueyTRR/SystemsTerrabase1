@@ -1,0 +1,9 @@
+vm-name               = "Win2019Srv"
+dns_server_list       = ["10.22.3.100", "10.4.0.18"]
+domain                = "trr.local"
+vmgateway             = "10.22.3.1"
+vm-ram                = 16096
+vm-cpu                = 4
+windows_template      = "Win2019-Template-Base-Thin"
+ipv4_addresses        = ["10.22.3.101"]
+ipv4_netmasks         = [24]
